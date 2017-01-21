@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Language Pack
+Bundle-SymbolicName: com.archimatetool.canvas.ru
+Bundle-Version: 4.0.0.qualifier
+Fragment-Host: com.archimatetool.canvas
+Bundle-ClassPath: com.archimatetool.canvas.ru.jar
