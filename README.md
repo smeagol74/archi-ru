@@ -6,7 +6,7 @@ Archi — [http://www.archimatetool.com]()
 
 Текущая версия Archi — 4.0.0.b4
 
-# Установке перевода в Archi
+# Установка перевода в Archi
 
 1. Скачать и установить [Archi 4 Beta](http://www.archimatetool.com/download)
 2. Скачать собранный [архив с переводом](https://github.com/smeagol74/archi-ru/releases)
