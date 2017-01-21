@@ -1,24 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
     <head>
         <meta charset="UTF-8"/>
         <link rel="stylesheet" href="style.css" type="text/css"/>
-        <title>Application Collaboration</title>
+        <title>Связка программ</title>
     </head>
-    
     <body>
-        <p>An <b>Application Collaboration</b> represents an aggregate of two or more Application Components that work together to perform collective application behaviour.</p>
-        
-        <p>An Application Collaboration specifies which components cooperate to perform some task. The collaborative behavior, including, for example, the communication pattern of these components, is modeled by an Application Interaction. An Application Collaboration typically models a logical or temporary collaboration of Application Components, and does not exist as a separate entity in the enterprise.</p>
-
-        <p>Application Collaboration is a specialization of Component, and aggregates two or more (cooperating) Application Components.</p>
-
-        <p>The name of an Application Collaboration should preferably be a noun.</p>
-
-        <h2>Category:</h2>
-        <p>Application. Active Structure.</p>
-        
+        <p>
+            <em>Связка программ</em> (application collaboration) определяеся как (временная) конфигурация двух или более программных компонент, которые кооперируются для совместного выполнения
+            <em>функционала связки</em>.</p>
+        <p>
+            <em>Связка программ</em> специфицирует, какие именно компоненты кооперируются в связке для выполнений той или иной задачи.
+        </p>
+        <p>Совместное поведение этих компонент, включая, например, закономерности их коммуникации, моделируется
+            <em>функционалом связки</em>.</p>
+        <p>Имя <em>связки программ</em> предпочтительно должно быть существительным.</p>
+        <h2>Категория:</h2>
+        <p>"Софт". Выполнители.</p>
         <h2>Examples:</h2>
-        <p>Two Application Components collaborate in transaction administration: an Accounting component and a Billing component. This collaboration performs the task "Administrate transactions".</p>
+        <p>Две
+            <em>программные компоненты</em> совместно работают в управлении транзакциями: компонента Учета и компонента Начисления.
+            Эта <em>связка программ</em> выполняет <em>функционал связки</em> &quot;Управлять транзакциями&quot;. </p>
+        <h2>Типовые отношения:</h2>
+        <p>Назначение - <em>функционал связки<em>, <em>коллегиальный процесс</em><br>
+            Использование - <em>программный интерфейс</em><br>
+            Состав - <em>программный интерфейс</em></p>
     </body>
 </html>

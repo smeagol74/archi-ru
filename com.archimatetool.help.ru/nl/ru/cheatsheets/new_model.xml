@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cheatsheet
-      title="Create a New Model">
+      title="Создать новую модель">
    <intro>
       <description>
-         This cheat sheet is a step-by-step description of how to create a basic ArchiMate model.
+         Эта инструкция -- пошаговое описание как создать примитивную модель Архимейта.
       </description>
    </intro>
    <item
          skip="false"
-         title="Open the Model Tree">
+         title="Открыть дерево модели">
       <description>
-         In order to see the model in the Model Tree, make sure the Model Tree Window is visible.
+         Чтобы увидеть модель в дереве модели, убедитесь, что окошко дерева модели видимо.
       </description>
       <action
       		required="false"
@@ -22,7 +22,7 @@
    <item
          title="Add a New Model">
       <description>
-         Add a new Model by clicking the <b>&quot;New Empty Model&quot;</b> button on the toolbar or by right-clicking in the Model Tree Window and selecting <b>&quot;New Empty Model&quot;</b>.
+         Добавьте новую модель, кликнув на кнопку <b>&quot;Новая пустая модель&quot;</b> на панели инструментов или кликнув правой кнопкой мышки в окне дерева модели и выбрав  <b>&quot;Новая пустая модель&quot;</b>.
       </description>
       <action
       		required="false"
@@ -30,11 +30,11 @@
       		class="com.archimatetool.editor.actions.NewArchimateModelAction"/>
    </item>
    <item
-         title="Add Elements to the Model">
+         title="Добавить элементы в модель">
       <description>
-         You should now see the basic folder structure of your new model in the Model Tree.  Also, you should see the <b>Model Diagram Window</b> open. This is where you can visually build your Model by dragging elements and connections from the palette to the diagram.
+         Вы можете сейчас увидеть основную структуру папок новой модели в дереве модели. Также вы можете увидеть открытое  <b>&quot;окно диаграммы модели&quot;</b> open. В окне диаграммы модели вы можете визуально построить модель, вытаскивая из палитры на диаграмму мышкой элементы и соединительные линии.
 <br/><br/>
-You can also add elements directly to the Model Tree by right-clicking on a folder and selecting the <b>&quot;New&quot;</b> menu action. Once added, the elements can be dragged from the Tree to the Diagram.
+Вы можете также добавлять элементы прямо в дерево модели, кликнуп правой кнопкой мышки на папке и выбрав <b>&quot;Новый&quot;</b> из меню. Когда элемент добавлен в дерево модели, его можно вытащить из дерева на диаграмму.
       </description>
    </item>
 </cheatsheet>

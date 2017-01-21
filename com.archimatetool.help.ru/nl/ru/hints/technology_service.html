@@ -1,26 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
     <head>
         <meta charset="UTF-8"/>
         <link rel="stylesheet" href="style.css" type="text/css"/>
-        <title>Technology Service</title>
+        <title>Сервис "железа"</title>
     </head>
-    
     <body>
-        <p>A <b>Technology Service</b> represents an explicitly defined exposed technology behaviour.</p>
-        
-        <p>A Technology Service exposes the functionality of a Node to its environment. This functionality is accessed through one or more Technology Interfaces. It may require, use, and produce Artifacts.</p>
-
-        <p>Typical Technology Services may, for example, include messaging, storage, naming, and directory services. It may access Artifacts; e.g., a file containing a message.</p>
-
-        <p>A Technology Service may serve Application Components or Nodes. A Technology Service is realized by a Technology Function or Process. A Technology Service is exposed by a Node by assigning Technology Interfaces to it. A Technology Service may access Artifacts.</p>
-
-        <p>The name of a Technology Service should preferably be a verb ending with "ing".</p>
-
+        <p>
+            <em>Сервис "железа"</em> (technology service) определяется как внешне видимая единица работы, обеспечиваемая одной или более единиц
+            <em>"железа"</em>, значимая для окружения и выставляемая для этого окружения через хорошо определенные
+            <em>интерфейсы</em>.</p>
+        <p>
+            <em>Сервис "железа"</em> может включать сервисы пересылки сообщений, хранения данных, именования, ведения справочников.
+        </p>
+        <p><em>Сервис "железа"</em> может иметь <em>доступ</em> к
+            <em>информобъектам</em>, например, файлу, содержащему сообщение.
+            <em>Сервис "железа"</em> может <em>использоваться</em> <em>программами</em> или <em>"железом"</em>.</p>
+        <p><em>Сервис "железа"</em> <em>реализуется</em> <em>"железом"</em> (<em>функционалом "железа"</em>).</p>
+        <p><em>Сервис "железа"</em> выставляется <em>"железом"</em> для его окружения путем <em>назначения</em> его на
+            <em>интерфейсы "железа"</em>. <em>Сервис "железа"</em> может состоять из подсервисов.</p>
+        <p>Имя
+            <em>сервиса "железа"</em> должно быть предпочтительно отглагольным существительным, например, &quot;обмен сообщениями&quot;.
+        </p>
         <h2>Category:</h2>
-        <p>Technology. Behavioural.</p>
-    
-        <h2>Examples:</h2>
-        <p>Messaging Service, Customer File Service, Claim Files Service.</p>
+        <p>"Железо". Работы.</p>
+        <h2>Примеры:</h2>
+        <p>Сервис обмена сообщениями, Клиентский файл-сервис, Сервис файлов требований.</p>
+        <h2>Типовые отношения:</h2>
+        <p>Используется - <em>программами, "железом"</em><br>
+            Назначение - на
+            <em>интерфейс "железа"</em><br>
+            Доступ - <em>информобъект<br>
+            </em>Реализация - <em>"железом"</em></p>
     </body>
 </html>

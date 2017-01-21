@@ -1,20 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
     <head>
         <meta charset="UTF-8"/>
         <link rel="stylesheet" href="style.css" type="text/css"/>
-        <title>Location</title>
+        <title>Место</title>
     </head>
-    
     <body>
-        <p>A <b>Location</b> is a place or position where structure elements can be located or behaviour can be performed.</p>
-        
-        <p>The Location concept is used to model the distribution of structural elements such as Business Actors, Application Components, and Devices. This is modelled by means of an Aggregation relationship from location to structural element. A Location can also aggregate a behaviour element, to indicate where the behaviour is performed.</p>
-   	
-        <h2>Category:</h2>
-        <p>Other. Composite.</p>
-
-        <h2>Examples:</h2>
-        <p>Main Office, Local Office, Room.</p>
+        <p>
+            <em>Место</em> (location) определяется либо как абстрактная точка, либо как пространственное протяженное место
+        </p>
+        <p>Элемент <em>места</em> часто используется для моделирования распределения таких выполнителей, как
+            <em>ответственные</em>, <em>программы</em>, и <em>устройства</em>. Это моделируется посредством
+            <em>назначения</em> места такому элементу. ВНИМАНИЕ! Место назначается выполнителю, а не наоборот, хотя этого не видно!!! Косвенно,
+            <em>место</em> может быть назначено работе, чтобы показать, где именно выполняется работа.</p>
+        <h2>Категория:</h2>
+        <p>Деятельность. Структура.</p>
+        <h2>Примеры:</h2>
+        <p>Главный офис, местный офис, комната.</p>
+        <h2> Типовые назначения:</h2>
+        <p>Назначение - на <em>роль, ответственного</em> (направлено!!! от места к выполнителю!!!) </p>
     </body>
 </html>

@@ -1,24 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
     <head>
         <meta charset="UTF-8"/>
         <link rel="stylesheet" href="style.css" type="text/css"/>
-        <title>Artifact</title>
+        <title>Информобъект</title>
     </head>
-    
     <body>
-        <p>An <b>Artifact</b> represents a piece of data that is used or produced in a software development process, or by deployment and operation of an IT system.</p>
-        
-        <p>An Artifact represents a tangible element in the IT world. It is typically used to model (software) products such as source files, executables, scripts, database tables, messages, documents, specifications, and model files.</p>
-
-        <p>An Application Component or System Software may be realized by one or more Artifacts. A Data Object may be realized by one or more Artifacts. A Node may be assigned to an Artifact to model that the Artifact is deployed on the Node.</p>
-
-        <p>The name of an Artifact should preferably be the name of the file it represents.</p>
-        
-        <h2>Category:</h2>
-        <p>Technology. Passive Structure.</p>
-        
-        <h2>Examples:</h2>
-        <p>Risk Management EJB, Jar file, Widget, Plug-in.</p>
+        <p>
+            <em>Информобъект</em> (artifact) определяется как физически отдельный фрагмент информации, который используется или создаётся в ходе разработки программных средств или в ходе разворачивания или работы информационной системы.
+        </p>
+        <p>
+            <em>Информобъект</em> представляет собой конкретный элемент физического мира (биты на конкретном носителе). Обычно используется для моделирования таких сущностей, как исходные файлы, исполняемые файлы программ, скрипты,
+            таблицы баз данных и другие структуры данных, сообщения, документы, спецификации и файлы моделей. Экземпляры (копии) информобъектов могут быть размещены в
+            <em>"железе"</em>.</p>
+        <p><em>Программа</em> может быть реализована одним или несколькими <em>информобъектами</em>.</p>
+        <p><em>Данные</em> могут быть реализованы одним или несколькими <em>информобъектами</em>.</p>
+        <p><em>Информобъектам</em> может быть назначено <em>"железо"</em> (т.е., они размещаются на этом "железе").</p>
+        <p>Имя
+            <em>информобъекта</em> должно быть предпочтительно именем файла, который его представляет; например, &quot;order.jar&quot;.
+            Информобъект может состоять из подобъектов.</p>
+        <h2>Категория:</h2>
+        <p>"Железо". Информационная.</p>
+        <h2>Примеры:</h2>
+        <p>Risk Management EJB, файл Jar, виджет, плаг-ин.</p>
+        <h2>Типовые отношения:</h2>
+        <p>Реализует - <em>программу</em>, <em>данные</em><br>
+            Назначают - <em>место, "железо", устройство, системный софт</em>
+            <em>информобъект</em></p>
     </body>
 </html>

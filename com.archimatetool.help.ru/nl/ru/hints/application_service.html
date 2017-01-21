@@ -1,26 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
     <head>
         <meta charset="UTF-8"/>
         <link rel="stylesheet" href="style.css" type="text/css"/>
-        <title>Application Service</title>
+        <title>Сервис программ</title>
     </head>
-    
     <body>
-        <p>An <b>Application Service</b> represents an explicitly defined exposed application behaviour.</p>
-        
-        <p>An Application Service exposes the functionality of components to their environment. This functionality is accessed through one or more Application Interfaces. An Application Service is realized by one or more Application Functions that are performed by the component. It may require, use, and produce Data Objects.</p>
-
-        <p>An Application Service should provide a unit of behaviour that is, in itself, useful to its users. It has a purpose, which states this utility to the environment.</p>
-
-        <p>A Purpose may be associated with an Application Service. An Application Service may serve Business Processes, Business Functions, Business Interactions, or Application Functions. An Application Function may realize an Application Service. An Application Interface may be assigned to an Application Service. An Application Service may access Data Objects.<p>
-            
-        <p>The name of an Application Service should preferably be a verb ending with "ing". Also, a name explicitly containing the word "service" may be used.</p>
-
-        <h2>Category:</h2>
-   	    <p>Application. Behavioural.</p>
-        
-        <h2>Examples:</h2>
-   	    <p>Transaction Processing, Payment Service, Customer Admin Service.</p>
+        <p>
+            <em>Сервис программ</em> определяется как видимая откуда-то извне единица работы программ, обеспечиваемая одной или многими программами, выставленная через хорошо определенные интерфейсы, и значимая для окружения.
+        </p>
+        <p>
+            <em>Сервис программ</em> выставляет функционал программ во внешнее окружение. Этот функционал может быть доступен через один или более
+            <em>интерфейсов программы</em></p>
+        <p><em>Сервис программ</em> реализуется одним или более
+            <em>функционалом программы</em>, которые выполняются программами. Он может требовать, использовать и создавать
+            <em>данные</em>.</p>
+        <p><em>Сервис обработки данных</em> может быть использован
+            <em>процессом, практикой, коллегиальным процессом</em>, или <em>функционалом программы.</em></p>
+        <p><em>Функционал программы</em> может реализовать <em>сервис программ</em>.
+            <em>Интерфейс программы</em> может быть назначен для <em>сервиса программ</em>.
+            <em>Сервис программ</em> может иметь доступ к <em>данным</em>.</p>
+        <p>Имя
+            <em>сервиса программ</em> должно быть предпочтительно отглагольным существительным, имя также может содержать в себе слово &qout;сервис&unquot;.
+        </p>
+        <h2>Категория:</h2>
+        <p>"Софт". Работы.</p>
+        <h2>Примеры:</h2>
+        <p>Обработка транзаций, Платёжный сервис, Сервис ведения клиентов.</p>
+        <h2>Типовые отношения:</h2>
+        <p>Использует - <em>процесс, практику, коллегиальный процесс, функционал программы</em><br>
+            Реализован - <em>функционалом программы</em><br>
+            Назначен - для <em>интерфейса программы</em> <br>
+            Доступ - к <em>данным</em></p>
     </body>
 </html>

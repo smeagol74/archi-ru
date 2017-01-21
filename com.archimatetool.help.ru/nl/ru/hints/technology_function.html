@@ -1,24 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
     <head>
         <meta charset="UTF-8"/>
         <link rel="stylesheet" href="style.css" type="text/css"/>
-        <title>Technology Function</title>
+        <title>Функционал "железа"</title>
     </head>
-    
     <body>
-        <p>A <b>Technology Function</b> represents a collection of technology behaviour that can be performed by a Node.</p>
-
-        <p>A Technology Function describes the internal behaviour of a Node; for the user of a Node that performs a Technology Function, this function is invisible. If its behaviour is exposed externally, this is done through one or more Technology Services. A Technology Function abstracts from the way it is implemented.</p>
-
-        <p>A Technology Function may realize Technology Services. Technology Services of other Technology Functions may serve Technology Functions. A Technology Function may access Technology Objects. A Node may be assigned to a Technology Function (which means that the Node performs the Technology Function).</p>
-        
-        <p>The name of a Technology Function should preferably be a verb ending with "ing".</p>
-
-        <h2>Category:</h2>
-        <p>Technology. Behavioural.</p>
-        
-        <h2>Examples:</h2>
-        <p>Providing Data Access, Managing Data.</p>
+        <p><em>Функционал "железа"</em> (technology function) описывает и группирует внутренние работы
+            <em>"железа"</em>.</p>
+        <p>Для пользователя "железа", которое выполняет свой
+            <em>функционал "железа"</em>, эти внутренние работы невидимы. Если эти работы выставляются наружу, это делается через один или более
+            <em>сервисов "железа"</em>.
+            <em>Функционал "железа"</em> абстрагируется от способа, которым он реализован. Специфицируется только нужные от этого функционала работы.
+        </p>
+        <p><em>Функционал "железа"</em> может <em>реализовывать</em> <em>сервисы "железа"</em>. Одним <em>
+            функционалом "железа"</em> могут быть <em>использованы</em> <em>сервисы "железа"</em>,
+            <em>реализованные</em> другими <em>функционалами "железа"</em>.
+            <em>Функционал "железа"</em> может иметь доступ к <em>информобъектам</em>. <em>"Железо"</em> может быть
+            <em>назначено</em> на
+            <em>функционал "железа"</em> (что означает, что это "железо" выполняет данный функционал).
+        <p>Имя
+            <em>функционала "железа"</em> должно быть предпочтительно отглагольным существительным, например, &quot;управление данными&quot;.
+        </p>
+        <h2>Категория:</h2>
+        <p>"Железо". Работы.</p>
+        <h2>Примеры:</h2>
+        <p>Обеспечение доступа к данным, Управление данными.</p>
+        <h2>Типовые отношения:</h2>
+        <p>Использование - <em>"железа"</em><br>
+            Реализация - <em>сервиса "железа"<br>
+            </em>Назначение - для <em>"железа"</em></p>
     </body>
 </html>

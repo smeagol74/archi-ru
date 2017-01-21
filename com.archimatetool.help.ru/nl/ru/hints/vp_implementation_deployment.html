@@ -1,24 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
     <head>
         <meta charset="UTF-8"/>
         <link rel="stylesheet" href="style.css" type="text/css"/>
-        <title>Implementation and Deployment Viewpoint</title>
+        <title>Реализация и развёртывание</title>
     </head>
-    
     <body>
-        <p>The Implementation and Deployment viewpoint shows how one or more applications are realized on the infrastructure. This comprises the mapping of applications and components onto artifacts, and the mapping of the information used by these applications and components onto the underlying storage infrastructure.</p>
-        
-        <h2>Stakeholders:</h2>
-        <p>Application and domain architects</p>
-        
-        <h2>Concerns:</h2>
-        <p>Structure of application platforms and how they relate to supporting technology</p>
-
-        <h2>Purpose:</h2>
-        <p>Designing, deciding</p>
-
-        <h2>Scope:</h2>
-        <p>Multiple layer/Multiple aspect</p>
+        <p>Метод описания реализации и развёртывания(Implementation and Deployment) показывает, как одна или более программ приложений разворачиваются на "железе". Это состоит из показа соответствия логических программ на физические информобъекты, такие как Enterprise Java Beans, и показа соответствия используемой этими программами информации на инфраструктуру хранения, например, базы данных, таблицы или другие файлы. Описание развёртывания играет важную роль в анализе производительности и масштабирования, поскольку оно соотносит физическую инфраструктуру и логический мир программ. В анализе безопасности и рисков описание развёртывания используется для идентификации, например, критических зависимостей и рисков.</p>
+        <table width="100%" border="0">
+            <tr>
+                <td width="20%" valign="top"><strong>Заинтересованные стороны</strong></td>
+                <td width="80%" valign="top">Архитекторы программ и оборудования, операционные менеджеры</td>
+            </tr>
+            <tr>
+                <td valign="top"><strong>Интересы</strong></td>
+                <td valign="top">Зависимости, безопасность, риски</td>
+            </tr>
+            <tr>
+                <td valign="top"><strong>Назначение</strong></td>
+                <td valign="top">Проектирование</td>
+            </tr>
+            <tr>
+                <td valign="top"><strong>Уровень абстракции</strong></td>
+                <td valign="top">Унификация</td>
+            </tr>
+            <tr>
+                <td valign="top"><strong>Уровень</strong></td>
+                <td valign="top">"Софта", "железа"</td>
+            </tr>
+            <tr>
+                <td valign="top"><strong>Аспекты</strong></td>
+                <td valign="top">Информация, работа, структура</td>
+            </tr>
+        </table>
+        <p><strong>Типы элементов и отношения</strong></p>
+        <p><img src="img/vp_impldeploy.png" width="451" height="404"></p>
+        <p>&nbsp;</p>
     </body>
 </html>

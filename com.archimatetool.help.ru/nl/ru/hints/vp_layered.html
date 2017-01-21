@@ -1,30 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
     <head>
         <meta charset="UTF-8"/>
         <link rel="stylesheet" href="style.css" type="text/css"/>
-        <title>Layered Viewpoint</title>
+        <title>Многоуровневость</title>
     </head>
-    
     <body>
-        <p>The Layered viewpoint pictures several layers and aspects of an Enterprise Architecture in one diagram.</p>
-        
-        <p>There are two categories of layers, namely dedicated layers and service layers. The layers are the result of the use of the "grouping" relationship for a natural partitioning of the entire set of objects and relationships that belong to a model. The technology, application, process, and actor/role layers belong to the first category. The structural principle behind a fully layered viewpoint is that each dedicated layer exposes, by means of the "realization" relationship, a layer of services, which are further on "serving" the next dedicated layer.</p>
-            
-        <p>Thus, we can easily separate the internal structure and organization of a dedicated layer from its externally observable behavior expressed as the service layer that the dedicated layer realizes.</p>
-        
-        <p>The main goal of the layered viewpoint is to provide an overview in one diagram. Furthermore, this viewpoint can be used as support for impact of change analysis and performance analysis or for extending the service portfolio.</p>
-        
-        <h2>Stakeholders:</h2>
-        <p>Enterprise, process, application, infrastructure, and domain architects</p>
-        
-        <h2>Concerns:</h2>
-        <p>Consistency, reduction of complexity, impact of change, flexibility</p>
-
-        <h2>Purpose:</h2>
-        <p>Designing, deciding, informing</p>
-
-        <h2>Scope:</h2>
-        <p>Multiple layer/Multiple aspect</p>
+        <p>Метод описания многоуровневости (Layered) показывает несколько уровней и аспектов архитектуры предприятия в одной диаграмме. Есть две категории уровней --
+            <em>выделенные</em> (dedicated) и сервисные. Уровни являются результатом использования отношения
+            <em>группировки</em> для естественного разделения полного набора элементов и отношений из модели. Уровни "железа", "софта", деятельности (процессы и ответственные/роли) относятся к выделенным. Структурый принцип за полностью разделенным на уровни описанем в том, что каждый выделенный уровень выставляет посредством отношений
+            <em>реализации</em> уровень сервисов, которые далее
+            <em>используются</em> следующим выделенным уровнем. Таким образом, мы можем легко разделить внутреннюю структуру и организацию выделенного уровня от внешне наблюдаемых работ, выраженных как уровень сервиса, который реализуется выделенным уровнем. Порядок, число или природа этих уровней не ограничены, но в целом (более или менее) полное и естественное разбиение на уровни модели Архимейта будет содержать последовательность уровней, описанных в примере, данном ниже. Однако, этот пример ни в коей мере не претендует на обязательность. Главная цель многоуровневой группы описаний -- обеспечить обзор всей архитектуры на одной диаграмме. Более того, эта группа описаний может быть использована в поддержку анализа изменений, или производительности, или для расширения портфеля сервисов.
+        </p>
+        <table width="100%" border="0">
+            <tr>
+                <td width="20%" valign="top"><strong>Заинтересованные стороны</strong></td>
+                <td width="80%"
+                    valign="top">Архитекторы предприятия, процессов, программ, оборудования и предметной области.
+                </td>
+            </tr>
+            <tr>
+                <td valign="top"><strong>Интересы</strong></td>
+                <td valign="top">Непротиворечивость, снижение сложности, влияние изменений, гибкость</td>
+            </tr>
+            <tr>
+                <td valign="top"><strong>Назначение</strong></td>
+                <td valign="top">Проектирование, принятие решений, информирование</td>
+            </tr>
+            <tr>
+                <td valign="top"><strong>Уроветь абстракции</strong></td>
+                <td valign="top">Обзорный</td>
+            </tr>
+            <tr>
+                <td valign="top"><strong>Уровень</strong></td>
+                <td valign="top">Деятельности, "софта", "железа"</td>
+            </tr>
+            <tr>
+                <td valign="top"><strong>Аспекты</strong></td>
+                <td valign="top">Информация, работа, структура</td>
+            </tr>
+        </table>
+        <p><strong>Типы элементов и отношений</strong></p>
+        <p>Все элементы и отношения.</p>
+        <p>&nbsp;</p>
     </body>
 </html>

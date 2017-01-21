@@ -1,24 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
     <head>
         <meta charset="UTF-8"/>
         <link rel="stylesheet" href="style.css" type="text/css"/>
-        <title>Information Structure Viewpoint</title>
+        <title>Информационная структура</title>
     </head>
-    
     <body>
-        <p>The Information Structure viewpoint is comparable to the traditional information models created in the development of almost any information system. It shows the structure of the information used in the enterprise or in a specific business process or application, in terms of data types or (object-oriented) class structures. Furthermore, it may show how the information at the business level is represented at the application level in the form of the data structures used there, and how these are then mapped onto the underlying technology infrastructure; e.g., by means of a database schema.</p>
-        
-        <h2>Stakeholders:</h2>
-        <p>Domain and information architects</p>
-        
-        <h2>Concerns:</h2>
-        <p>Structure and dependencies of the used data and information, consistency and completeness</p>
-
-        <h2>Purpose:</h2>
-        <p>Designing</p>
-
-        <h2>Scope:</h2>
-        <p>Multiple layer/Single aspect</p>
+        <p>Метод описания информационной структуры (Information Structure) можно сравнивать с методами создания традиционных информационных моделей, создаваемых при разработке почти любой информационной системы.
+            Группа описаний информационной структуры показывает структуру информации, используеой на предприятии или в отдельных процессах или программах, в терминах типов данных или (при использовании объект-ориентированного программирования) структуры классов. Более того, он может показывать как информация на уровне деятельности представляется на уровне "софта" в форме структур данных, и как затем данные соотносятся с нижележащим "железом" (например, посредством схемы базы данных).</p>
+        <table width="100%" border="0">
+            <tr>
+                <td width="20%" valign="top"><strong>Заинтересованные стороны</strong></td>
+                <td width="80%" valign="top">Архитекторы предметной области и информации</td>
+            </tr>
+            <tr>
+                <td valign="top"><strong>Интересы</strong></td>
+                <td valign="top">Структура и зависимости используемых данных и информации, целостность и полнота</td>
+            </tr>
+            <tr>
+                <td valign="top"><strong>Назначение</strong></td>
+                <td valign="top">Проектирование</td>
+            </tr>
+            <tr>
+                <td valign="top"><strong>Уровень абстракции</strong></td>
+                <td valign="top">Детали</td>
+            </tr>
+            <tr>
+                <td valign="top"><strong>Уровень</strong></td>
+                <td valign="top">Деятельности, "софта", "железа"</td>
+            </tr>
+            <tr>
+                <td valign="top"><strong>Аспекты</strong></td>
+                <td valign="top">Информация</td>
+            </tr>
+        </table>
+        <p><strong>Типы элементов и отношения</strong></p>
+        <p><img src="img/vp_infostructure.jpg" width="289" height="289"></p>
+        <p>&nbsp;</p>
     </body>
 </html>

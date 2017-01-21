@@ -1,24 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
     <head>
         <meta charset="UTF-8"/>
         <link rel="stylesheet" href="style.css" type="text/css"/>
-        <title>Application Function</title>
+        <title>Функционал программы</title>
     </head>
-    
     <body>
-        <p>An <b>Application Function</b> represents automated behaviour that can be performed by an Application Component.</p>
-        
-        <p>An Application Function describes the internal behaviour of an Application Component. If this behaviour is exposed externally, this is done through one or more services.</p>
-
-        <p>An Application Function may realize one or more Application Services. Application Services of other Application Functions and Technology Services may serve an Application Function. An Application Function may access Data Objects. An Application Component may be assigned to an Application Function (which means that the Application Component performs the Application Function).</p>
-        
-        <p>The name of an Application Function should preferably be a verb ending with "ing"; e.g., "accounting".</p>
-
-        <h2>Category:</h2>
-   	    <p>Application. Behavioural.</p>
-        
-        <h2>Examples:</h2>
-   	    <p>Accounting, Billing, Policy Creation, Calculate Premium, Financial Administration.</p>
+        <p>
+            <em>Функционал программы</em> (application function) определяется как представление однородной группы внутренних
+            работ <em>программы</em>. </p>
+        <p><em>Функционал программы</em> описывает внутренние работы
+            <em>программы</em>. Внутренние работы функционала невидимы
+            для использующих <em>программу</em>.</p>
+        <p>Поведение <em>функционала программы</em> выставляется вовне через один или более сервисов программ, т.е. <em>функционал
+            программы</em> может реализовать <em>сервис программ</em>.</p>
+        <p><em>Функционалом программы</em> могут быть <em>использованы</em> другие <em>функционалы программ<em/> и <em>сервисы
+            программ</em>, а также <em>сервисы "железа"</em>.</p>
+        <p><em>Функционал программы</em> может иметь доступ к <em>данным</em>.</p>
+        <p><em>Функционалу программы</em> может быть назначена <em>программа</em>.</p>
+        <p>Имя <em>функционала программы</em> предпочтительно должно быть отглагольным существительным. </p>
+        <h2>Категория:</h2>
+        <p>"Софт". Работы.</p>
+        <h2>Примеры:</h2>
+        <p>Учёт, Выставление счетов, Выписка полиса, Начисление премий, Ведение финансовых дел.</p>
+        <h2>Типовые отношения:</h2>
+        <p>Использование - <em>сервисом программ</em><br>
+            Запуск - <em>функционала программы<br>
+            </em>Доступ - к <em>данным<br>
+            </em>Назначение - для <em>программной компоненты</em></p>
     </body>
 </html>
