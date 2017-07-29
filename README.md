@@ -8,7 +8,7 @@ Archi — [http://www.archimatetool.com](http://www.archimatetool.com)
 
 # Установка перевода в Archi
 
-1. Скачать и установить [Archi 4 Beta](http://www.archimatetool.com/download)
+1. Скачать и установить [Archi 4](http://www.archimatetool.com/download)
 2. Скачать собранный [архив с переводом](https://github.com/smeagol74/archi-ru/releases)
 3. Распаковать каталог `plugins` из архива в соответствующий каталог установленного редактора Archi
 4. Запустить Archi и радоваться знакомым буковкам
