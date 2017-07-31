@@ -9,7 +9,7 @@ Archi — [http://www.archimatetool.com](http://www.archimatetool.com).
 # Установка перевода в Archi
 
 1. Скачать и установить [Archi 4](http://www.archimatetool.com/download).
-2. Скачать собранный [архив с переводом](https://github.com/smeagol74/archi-ru/releases). Скачивать нужно скомпилированный файл релиза с именем `archi-ru.V.V.V.YYYYMMDDHHMM.zip`.
+2. Скачать собранный [архив с переводом](https://github.com/smeagol74/archi-ru/releases). Скачивать нужно скомпилированный файл релиза с именем `archi-ru.V.V.V.YYYYMMDDHHMM.zip` на странице с [скомпилированными версиями](https://github.com/smeagol74/archi-ru/releases), а не архив с исходниками.
 3. Распаковать каталог `plugins` из архива в соответствующий каталог установленного редактора Archi. Если вы уже устанавливали русификацию раньше, то из каталога `plugins` лучше удалить старые версии русификации.
 4. Запустить Archi и радоваться знакомым буковкам.
 
