@@ -9,7 +9,7 @@ Archi — [http://www.archimatetool.com](http://www.archimatetool.com).
 # Установка перевода в Archi
 
 1. Скачать и установить [Archi 4](http://www.archimatetool.com/download).
-2. Скачать [перевод базовых компонентов Eclipse](http://download.eclipse.org/technology/babel/babel_language_packs/R0.14.1/luna/luna.php#ru). Нужен основной файл `BabelLanguagePack-eclipse-ru_4.4.0.vYYYYMMDDhhmmss.zip`
+2. Скачать [перевод базовых компонентов Eclipse](http://download.eclipse.org/technology/babel/babel_language_packs/R0.14.1/neon/neon.php#ru). Нужен основной файл `BabelLanguagePack-eclipse-ru_4.6.0.vYYYYMMDDhhmmss.zip`
 3. Распаковать каталоги `features` и `plugins` из архива в соответствующие каталоги установленного редактора Archi.
 4. Скачать собранный [архив с переводом собственно Archi](https://github.com/smeagol74/archi-ru/releases). Скачивать нужно скомпилированный файл релиза с именем `archi-ru.V.V.V.YYYYMMDDHHMM.zip` на странице [скомпилированных версий](https://github.com/smeagol74/archi-ru/releases), а не архив с исходниками.
 5. Распаковать каталог `plugins` из архива в соответствующий каталог установленного редактора Archi. Если вы уже устанавливали русификацию раньше, то из каталога `plugins` лучше удалить старые версии русификации.
