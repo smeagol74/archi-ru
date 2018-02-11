@@ -17,14 +17,13 @@ Archi — [http://www.archimatetool.com](http://www.archimatetool.com).
 
 # Доработка перевода
 
-1. Установить и растроить среду разработки Eclipse по [инструкции Archi](http://www.archimatetool.com/dev/eclipse-setup).
+1. Установить и настроить среду разработки Eclipse по [инструкции Archi](http://www.archimatetool.com/dev/eclipse-setup).
 2. Импортировать код по [инструкции Archi](http://www.archimatetool.com/dev/import-code).
 3. Скомпилировать и запустить Archi по [инструкции Archi](http://www.archimatetool.com/dev/running-archi).
-4. Сгенерировать проекты для перевода по [инструкции Archi](http://www.archimatetool.com/dev/translate-archi).
-5. Отложить каталог `${archi_src}/nls` на время в сторонку, например в каталог `${archi_src}/nls_last`.
-6. Получить исходники этого перевода в каталог `${archi_src}/nls`.
-7. Скопировать содержимое отложенного каталога `${archi_src}/nls_last` поверх файлов в каталоге `${archi_src}/nls`.
-8. При помощи разнообразных утилит вроде `git-diff`, [Eclipse ResourceBundle Editor](https://github.com/essiembre/eclipse-rbe) и крепких русских выражений привести перевод в актуальное состояние с версией Archi.
+4. Склонировать репозиторий [smeagol74/archi-nls](https://github.com/smeagol74/archi-nls) с историей изменения языковых ресурсов.
+5. При необходимости добавить недостающих версий изменений ресурсов для перевода согласно [инструкции](https://github.com/smeagol74/archi-nls)
+6. При помощи команды `cd ${ARCHI-NLS-DIR} && git diff ${ARCHI-RU-VERSION}` получить список изменений в оригинальных языковых ресурсах, которые необходимо внести в аналогичные русскоязычные ресурсы.   
+7. При помощи разнообразных утилит вроде `git-diff`, [Eclipse ResourceBundle Editor](https://github.com/essiembre/eclipse-rbe), `native2ascii` и крепких русских выражений привести перевод в актуальное состояние с требуемой версией Archi.
 
 # Сборка архива для установки где-нибудь ещё
 
