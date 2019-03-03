@@ -1,10 +1,10 @@
-# Archi 4.0.0 по-русски
+# Archi 4.3.1 по-русски
 
 Archi — [http://www.archimatetool.com](http://www.archimatetool.com).
 
 Основано на переводе Анатолия Левенчука ([TechInvestLab/Archi-rus-pack](https://github.com/TechInvestLab/Archi-rus-pack)).
 
-Текущая версия Archi — 4.0.2
+Текущая версия Archi — 4.3.1
 
 # Установка перевода в Archi
 

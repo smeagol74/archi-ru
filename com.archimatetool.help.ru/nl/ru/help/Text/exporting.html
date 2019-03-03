@@ -27,7 +27,7 @@
     <br/>
     <p>The CSV field format for elements is - "ID", "Type", "Name", "Documentation"</p>
     <p>The CSV field format for relations is - "ID","Type", "Name", "Documentation", "Source", "Target"</p>
-    <p>The CSV field format for elements is - "ID", "Key", "Value"</p>
+    <p>The CSV field format for properties is - "ID", "Key", "Value"</p>
     
     <h3>Export Options</h3>
     <p><strong>Output Folder</strong><br/>
@@ -40,7 +40,7 @@
     Provide an optional prefix to add to the file names. For example, "MyModel-" will change the file names to "MyModel-elements.csv", "MyModel-relations.csv", and "MyModel-properties.csv".</p>
 
     <p><strong>File encoding</strong><br/>
-    Select the file encoding to use - ANSI or UTF-8. Some programs prefer one or the other file encoding.</p>
+    Select the file encoding to use - ANSI, UTF-8 or UTF-8 BOM. Some programs prefer one or the other file encoding. For example, MS Excel prefers the "UTF-8 BOM" encoding if Unicode characters are present in the CSV file.</p>
 
     <p><strong>Strip newline characters</strong><br/>
     If selected will remove all newline characters from multi-line text such as documentation.</p>
@@ -78,14 +78,6 @@
     
     <img src="../Images/export_image.png" alt="export-image"/>
     <p class="caption">Exporting a View as an image</p>
-
-    <br/>
-    
-    <h2>Export View As Image to Clipboard</h2>
-    
-    <p><em>Note - this is not implemented on the 64-bit Linux version of Archi due to a bug in Eclipse.</em></p>
-    
-    <p>A View (diagram) can be exported (or copied) as an image to the system clipboard. This is available from the "Export View As Image To Clipboard" menu command from the main "File-&gt;Export" menu or by right-clicking on a View and  selecting the menu item from the contextual menu. This menu command is only  available if a View is open and selected. A useful shortcut key combination is  Ctrl-Shift-C (Command key on Mac). Once the View is exported to the system clipboard it can be  pasted into other applications such as word processing and drawing tools.</p>
     
     <p>&nbsp;</p>
 
