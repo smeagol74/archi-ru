@@ -1,24 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
     <head>
         <meta charset="UTF-8"/>
         <link rel="stylesheet" href="style.css" type="text/css"/>
-        <title>Equipment</title>
+        <title>Инструмент</title>
     </head>
     
     <body>
-        <p><b>Equipment</b> represents one or more physical machines, tools, or instruments that can create, use, store, move, or transform materials.</p>
+        <p>Элемент типа <b>Инструмент</b> используется для моделирования машин, вспомогательных средств и другого производственного обеспечения, которое можно использовать при обработке материалов. Инструмент всегда обладает физическим воплощением.</p>
         
-        <p>Equipment comprises all active processing elements that carry out physical processes in which materials are used or transformed. Equipment is a specialization of the Node element. Therefore, it is possible to model nodes that are formed by a combination of IT infrastructure (devices, system software) and physical infrastructure (equipment); e.g., an MRI scanner at a hospital, a production plant with its control systems, etc.</p>
+        <p>Понятие <b>Инструмент</b> охватывает все элементы активной структуры, которые выполняют производственные процессы обработки или использования <b>материалов</b>. <b>Инструмент</b> является частным случаем <b>узла</b> (связан с узлом отношением <b>специализации</b>). Таким образом становится возможным моделирование <b>узлов</b>, которые образованы совокупностью элементов ИТ-инфраструктуры (<b>устройства</b>, <b>системное программное обеспечение</b>) и других типов инфраструктурных элементов (например аппарат МРТ в лечебном учреждении).</p>
 
-        <p>Material can be accessed (e.g., created, used, stored, moved, or transformed) by equipment. Equipment can serve other Equipment, and also Business Roles and Actors, and Facilities can be assigned to Equipment. A piece of Equipment can be composed of other pieces of Equipment. Equipment can be assigned to (i.e., installed and used in or on) a Facility and can be aggregated in a Location.</p>
+        <p> <b>Инструмент</b> может обладать <i>Доступом</i> к <b>Материалам</b> (например: создавать, использовать, хранить, перемещать, преобразовывать). <b>Инструмент</b> может <i>обслуживать</i> другой <b>Инструмент</b>, <i>Производственную роль</i>, <i>Производственного деятеля</i>. <i>Фабрика</i> может быть <i>назначена</i>, как использующая <b>Инструмент</b>. <b>Инструмент</b> может <i>состоять</i> из других инструментов. <b>Инструмент</b> может быть <i>назначен</i> на <i>фабрику</i>, (например как используемый там), и может быть <i>аггрегирован</i> в каком-то <b>размещении</b>.</p>
 
-        <p>The name of a piece of Equipment should preferably be a noun.</p>
+        <p>Для именования элементов типа <b>Инструмент</b> следует использовать имена существительные в именительном падеже.</p>
 
-        <h2>Category:</h2>
-        <p>Physical. Active Structure.</p>
+        <h2>Категория элемента языка:</h2>
+        <p>Физический. Активная структура.</p>
         
-        <h2>Examples:</h2>
-        <p>MRI scanner, Assembly line.</p>
+        <h2>Примеры:</h2>
+        <p>Томограф, Сборочная линия, 3D-принтер.</p>
     </body>
 </html>
