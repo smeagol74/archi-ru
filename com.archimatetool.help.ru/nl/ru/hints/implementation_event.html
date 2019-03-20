@@ -1,30 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
     <head>
         <meta charset="UTF-8"/>
         <link rel="stylesheet" href="style.css" type="text/css"/>
-        <title>Implementation Event</title>
+        <title>Событие внедрения</title>
     </head>
     
     <body>
-       	<p>An <b>Implementation Event</b> is a behaviour element that denotes a state change related to implementation or migration.</p>
+       	<p><b>Событие внедрения</b> моделирует состояние завершения изменения относящегося к внедрению или переходу к новой архитектуре, не имеющее длительности по времени (т.е. событие - мгновенно).</p>
        	
-       	<p>Work Packages may be triggered or interrupted by an Implementation Event. Also, work packages may raise events that trigger other behaviour. Unlike a Work Package, an event is instantaneous: it does not have duration.</p>
+       	<p> <b>Пакет работ</b>, как и <b>"Плато"</b>, может начинаться или прерываться <b>Событием внедрения</b> через отношение <i>запуска</i>, как и создавать <i>события</i> или <i>запускать</i> прочие элементы поведения.</p>
 
-        <p>An Implementation Event may have a time attribute that denotes the moment or moments at which the event happens.</p>
+        <p><b>Событие внедрения</b> может обладать атрибутом, в котором указывается момент времени, в который оно происходит.</p>
 
-        <p>Implementation Events access Deliverables to fulfil project objectives.</p>
+        <p><b>Событие внедрения</b> может обладать отношением <i>доступа</i> к <b>единицам поставки</b>, для выполнения целей проекта. Так же оно может <i>состоять</i> из других <b>Событий внедрения</b></p>
 
-        <p>An Implementation Event may trigger or be triggered (raised) by a Work Package or a Plateau. An Implementation Event may access a Deliverable and may be composed of other Implementation Events.</p>
-
-        <p>An Implementation Event may be associated with any core element; e.g., to indicate a lifecycle state change.</p>
+        <p><b>Событие внедрения</b> допускается <i>ассоциировать</i> с любым элементом ядра языка, например для обозначения переходов по стадиям жизненномго цикла.</p>
         
-        <p>The name of an Implementation Event should preferably be a verb in the perfect tense.</p>
+        <p>В качестве наименований <b>События внедрения</b> следует использовать отглаглагольные существительные.</p>
     
-       	<h2>Category:</h2>
-       	<p>Implementation and Migration</p>
+       	<h2>Категория элемента языка:</h2>
+       	<p>Внедрение</p>
     
-       	<h2>Examples:</h2>
-       	<p>"Release to production", "Project initiation phase completed".</p>
+       	<h2>Примеры:</h2>
+       	<p>"Выпуск в производство", "Завершение предпроекта".</p>
     </body>
 </html>
